@@ -1,0 +1,25 @@
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Файлы IDE
+.idea/
+*.iml
+.vscode/
+.project
+.settings/
+
+# Логи
+*.log
+logs/
+
+# Java
+*.class
+target/
+out/
+
+# Системные
+.DS_Store
+Thumbs.db
