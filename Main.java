@@ -5,9 +5,8 @@ public class Main {
     public static void main(String[] args) {
         DataManager.initData();
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("=== Система онлайн-курсов ===");
-	System.out.println("Конфликтная строка из master");
+        System.out.println("Разрешённый конфликт: объединённая строка из обеих веток");
         while (true) {
             System.out.println("\n1. Поиск студентов на курсе");
             System.out.println("2. Фильтрация курсов по продолжительности");
@@ -15,7 +14,6 @@ public class Main {
             System.out.print("Выберите опцию: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Очистка буфера
-
             if (choice == 1) {
                 System.out.print("Введите название курса: ");
                 String courseName = scanner.nextLine();
