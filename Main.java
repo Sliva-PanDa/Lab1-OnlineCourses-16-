@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Система онлайн-курсов ===");
+	System.out.println("Конфликтная строка из master");
         while (true) {
             System.out.println("\n1. Поиск студентов на курсе");
             System.out.println("2. Фильтрация курсов по продолжительности");
